@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #fff;
+}
+
+.container {
+  width: 82.5%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.banner {
+  background-image: url("../resources/Banner\ Image.png");
+  height: 600px;
+  margin-top: 50px;
+  border-radius: 16px;
+}
+.container-contain {
+  text-align: center;
+  padding: 177px 344px;
+}
+.container-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+}
+.container-discription {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+/* discount - section styles */
+
+.discount {
+  width: 50%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.discount .discount-head {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-top: 120px;
+  margin-bottom: 48px;
+}
+.discount .discount-title {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.discount .discount-discription {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 48px;
+}
+
+.discount-img {
+  background-image: url("../resources/New\ Year\ Photo.png");
+  height: 500px;
+}
+
+/* party section styles */
+
+.party-banner {
+  background-image: url("../resources/Vectorrr.png");
+  height: 600px;
+  display: flex;
+  margin: 120px auto;
+}
+
+.party-contain {
+  margin: 126px 95px 140px 126px;
+}
+.party-head {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+}
+.party-discription {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 50px;
+}
+.party-contain .party-join {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.party-img {
+  margin: 70px auto;
+  margin-right: 168px;
+}
+
+/* date-line saction styles */
+
+.dateline-banner {
+  height: 482px;
+  background: rgba(255, 0, 0, 0.05);
+}
+
+.date-contain {
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  padding-top: 100px;
+}
+.dateline-banner span {
+  color: #f00;
+}
+.dateline-banner .btn {
+  margin: auto 578px;
+  border-radius: 8px;
+  background: #f00;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 30px;
+  margin-top: 50px;
+}
