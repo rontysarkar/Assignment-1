@@ -206,3 +206,54 @@ header {
   margin-top: 15px;
   margin-bottom: 20px;
 }
+
+/* holly offer section styles */
+
+.holiday-banner {
+  height: 925px;
+}
+
+.holiday-contain {
+  text-align: center;
+}
+.holiday-contain .holiday-title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday-contain .holiday-head {
+  color: rgb(247, 6, 6);
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-top: 16px ;
+  margin-bottom: 28px;
+}
+#holiday-head {
+  color: #070211;
+}
+.holiday-dis {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  margin: auto 133px;
+
+}
+.holiday-img{
+
+}
+.holiday-img .img-1{
+  
+}
+
+
+
+.holiday-backg{
+  background-image: url('../resources/Rectangle\ 2.png');
+  height: 229px;
+  margin-bottom: 5px;
+
+}
