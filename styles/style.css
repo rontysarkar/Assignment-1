@@ -294,7 +294,108 @@ header {
   border-radius: 16px;
 }
 
-.imggg{
+.imggg {
   margin: auto 20px;
 }
 
+/* form section styles */
+
+.form-banner {
+  margin-top: 120px;
+  height: 620px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.form-contain {
+  text-align: center;
+  padding-top: 80px;
+}
+.form-contain .form-head {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.form-dis {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.form-contain form {
+}
+.form-input {
+  width: 448px;
+  height: 42px;
+  border: none;
+  border-radius: 50px;
+  background: #fff;
+  padding-left: 20px;
+}
+.form-submit {
+  position: relative;
+  width: 150px;
+  height: 45px;
+  border: none;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  color: #fff;
+  right: 25px;
+}
+
+
+/* footer baner section  */
+
+footer{
+  width: 100%;
+  margin-top: 120px;
+  height: 600px;
+  background: #070211;
+}
+.footer-contain{
+  display: flex;
+  justify-content: space-between;
+}
+.address{
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+padding-top: 120px;
+padding-right: 500px;
+}
+
+.contrac{
+  padding-top: 120px;
+}
+.contrac a{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+
+footer hr{
+  margin-top: 70px;
+  background: rgba(255, 255, 255, 0.15);
+}
+.footer-img{
+  text-align: center;
+  margin: 60px auto;
+}
+
+.right{
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 50px;
+}
