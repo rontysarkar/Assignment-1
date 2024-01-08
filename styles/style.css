@@ -227,7 +227,7 @@ header {
   font-family: Merriweather;
   font-size: 72px;
   font-weight: 900;
-  margin-top: 16px ;
+  margin-top: 16px;
   margin-bottom: 28px;
 }
 #holiday-head {
@@ -240,20 +240,61 @@ header {
   font-size: 20px;
   font-weight: 500;
   margin: auto 133px;
-
 }
-.holiday-img{
-
+.holiday-img {
 }
-.holiday-img .img-1{
-  
+.holiday-img .img-1 {
+  position: relative;
+  top: 190px;
+  left: 30px;
+}
+.holiday-img .img-2 {
+  position: relative;
+  left: 150px;
+  bottom: 50px;
 }
 
-
-
-.holiday-backg{
-  background-image: url('../resources/Rectangle\ 2.png');
+.holiday-backg {
+  background-image: url("../resources/Rectangle\ 2.png");
   height: 229px;
-  margin-bottom: 5px;
-
 }
+
+/* portfolio section styles */
+
+.portfolio-banner {
+  height: 1164px;
+  margin-top: 120px;
+}
+.portfolio-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.portfolio-head {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+.portfolio-dis {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  padding-right: 309px;
+  margin-bottom: 50px;
+}
+.portfolio-img {
+  display: flex;
+}
+.images {
+  border-radius: 16px;
+}
+
+.imggg{
+  margin: auto 20px;
+}
+
